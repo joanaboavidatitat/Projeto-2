@@ -1,0 +1,60 @@
+body {
+    background-color: #fdf0f7;
+    color: #5b1f66;
+    font-family: Arial, sans-serif;
+	font-size: 18px;
+    text-align: center;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1 {
+	color: #7b2d8e;
+    font-family: Georgia, serif;
+	font-size: 48px;
+	}
+
+h2 {
+    color: #7b2d8e;
+    font-family: Georgia, serif;
+}
+
+img {
+    width: 60%;
+    border: 0;
+}
+.destaque {
+    background-color: #5b1f66;
+    color: #fdf0f7;
+    padding: 12px;
+	margin: 20px 60px;
+}
+
+li div {
+    background-color: #f4b6d9;
+    color: #000000;
+    padding: 10px;
+    margin: 6px auto;
+    width: 70%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #880e4f;
+}
+
+/*
+Desafio Técnico: Qual foi a regra CSS mais difícil de aplicar e como conseguiste superar essa dificuldade?
+Correção de Sintaxe: Durante os teus testes no browser, detetaste com certeza algum erro que te tenha obrigado a voltar ao Notepad++ para corrigir. Qual foi o teu erro mais comum?
+Autoria: Escolhe apenas um dos atributos que usaste (href ou src) e explica pelas tuas próprias palavras, num único parágrafo, para que serve.
+
+1. O mais difícil foi conseguir escolher as propriedades certas para conseguir centrar o texto e estilizar a página como eu queria. Um exemplo foi no "main" que o conteúdo cobria o ecrã todo e a informação ficava muito esticada, tornando o meu site feio. Para resolver isto, usei "max-width: 1000px" para as imagens e os textos ficarem mais centrados.
+2. O erro que encontrei foi esquecer me de fechar a tag <strong> algumas vezes. Na página ficava tudo o que viesse a seguir à primeira tag <strong> em negrito e foi assim que descobri o meu erro.Voltei ao Notepad++,emendei o erro fechando a tag com </strong>.
+3. O atributo src (source) diz onde está a imagem que pretendemos mostrar na página. O computador vai buscar a imagem e coloca-a na página. Se a source for mal escrita a imagem não vai aparecer na página.
+*/
